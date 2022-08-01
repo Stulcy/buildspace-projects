@@ -12,6 +12,15 @@ async function run() {
 
     txn = await NFTcontract.mint();
     await txn.wait();
+
+    txn = await NFTcontract.mint();
+    await txn.wait();
+
+    txn = await NFTcontract.mint();
+    await txn.wait();
+
+    txn = await NFTcontract.mint();
+    await txn.wait();
 }
 
 run().catch((error) => {

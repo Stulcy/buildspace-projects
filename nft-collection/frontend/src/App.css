@@ -1,0 +1,38 @@
+.main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+h1 {
+    padding: 22px 42px;
+    border: 1px solid #3cf1fb;
+    border-radius: 8px;
+    color: #3cf1fb;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    padding: 18px 36px;
+    border: 1px solid #81dd66;
+    border-radius: 8px;
+    color: #81dd66;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #81dd66;
+    font-weight: bold;
+    font-size: 7rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
+}

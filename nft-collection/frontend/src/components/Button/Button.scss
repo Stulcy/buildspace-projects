@@ -1,0 +1,26 @@
+button {
+    display: flex;
+    padding: 22px 42px;
+    margin-top: 2em;
+    border: 1px solid #3cf1fb;
+    border-radius: 8px;
+    outline: none;
+    background-color: #3c3837;
+    color: #3cf1fb;
+    text-transform: uppercase;
+    letter-spacing: 1.2em;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+
+    // &:hover {
+    //     color: #FBFBFF;
+    //     background-color: #4DA1A9;
+    //     border: 1px solid #FBFBFF;
+    // }
+
+    &:hover {
+        color: #81dd66;
+        border: 1px solid #81dd66;
+    }
+}
