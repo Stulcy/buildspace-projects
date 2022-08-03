@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import "./App.css";
-import Button from '../src/components/Button/Button';
+import "./App.scss";
+import Button from './components/Button/Button';
 import RandomWords from "./utils/RandomWords.json";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
 
   async function checkIfWalletIsConnected() {
     try {
-      const { ethereum } = window;
+      const { ethereum }: Window = window;
 
       if (!ethereum)
         return;
@@ -76,7 +76,6 @@ const App = () => {
       await txn.wait();
 
       setMintStatus("");
-      connectedContract.removeListener();
 
     } catch (error) {
       console.log(error);
